@@ -1,0 +1,1 @@
+<IfModule mod_rewrite.c>  RewriteEngine On  RewriteCond %{http_host} ^https://chiropyon.github.io/gh00/ RewriteRule ^(.*)$ https://chiropyon.github.io/gyakuhonyaku0/$1 [R=301,L]  </IfModule>
